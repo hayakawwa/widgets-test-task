@@ -1,0 +1,68 @@
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 12rem;
+  background-color: #A6B6A9;
+  border-radius: 20px;
+}
+.clock .screen {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a7b7aa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  width: 90%;
+  height: 10rem;
+  border-radius: 15px;
+}
+.clock .screen .cross {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+}
+.clock .screen .cross:hover {
+  opacity: 0.8;
+}
+.clock .screen .cross:active {
+  opacity: 0.6;
+}
+.clock .screen .settings {
+  position: absolute;
+  right: 2.5rem;
+  top: 0.6rem;
+}
+.clock .screen .settings:hover {
+  opacity: 0.8;
+}
+.clock .screen .settings:active {
+  opacity: 0.6;
+}
+
+@media (max-width: 1600px) {
+  .clock .screen .cross {
+    width: 12px;
+    height: 12px;
+  }
+  .clock .screen .settings {
+    right: 2rem;
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  .clock .screen .cross {
+    width: 10px;
+    height: 10px;
+  }
+  .clock .screen .settings {
+    right: 2rem;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/*# sourceMappingURL=ClockAppWrapper.module.css.map */

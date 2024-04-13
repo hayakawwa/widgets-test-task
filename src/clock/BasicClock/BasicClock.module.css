@@ -1,0 +1,33 @@
+.time {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+}
+
+@media ((min-width: 1400px) and (max-width: 1600px)) {
+  .time {
+    font-size: 2.5rem;
+  }
+}
+@media ((min-width: 1200px) and (max-width: 1400px)) {
+  .time {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 950px) and (max-width: 1200px) {
+  .time {
+    font-size: 2.3rem;
+  }
+}
+@media ((min-width: 600px) and (max-width: 780px)) {
+  .time {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .time {
+    font-size: 2.3rem;
+  }
+}
+
+/*# sourceMappingURL=BasicClock.module.css.map */

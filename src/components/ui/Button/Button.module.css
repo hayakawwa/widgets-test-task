@@ -1,0 +1,30 @@
+.customButton {
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.customButton:hover {
+  opacity: 0.8;
+}
+.customButton:active {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

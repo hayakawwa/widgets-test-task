@@ -1,0 +1,70 @@
+.settingsWrapper {
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0,0,0, 0.4);
+  justify-content: center;
+  pointer-events: none;
+  transform: scale(0);
+  .settings {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.active {
+  pointer-events: all;
+  transform: scale(1);
+}
+
+@media (max-width: 1605px) {
+  .settingsWrapper {
+    .settings {
+      button {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .settingsWrapper {
+    .settings {
+      button {
+        font-size: 10px;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .settingsWrapper {
+    .settings {
+      width: 20vw;
+      button {
+        font-size: 8px;
+        padding: 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .settingsWrapper {
+    .settings {
+      width: 30vw;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.informationWrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.informationWrapper .mainInformation {
+  margin-bottom: 5rem;
+}
+.informationWrapper .mainInformation .value {
+  font-size: 2.5rem;
+}
+.informationWrapper .mainInformation .header {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.informationWrapper .mainInformation .error {
+  background-color: cornflowerblue;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+.informationWrapper .subInformation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.informationWrapper .subInformation .header {
+  margin-bottom: 0.25rem;
+}
+.informationWrapper .subInformation .humidity img {
+  width: 40px;
+  height: 40px;
+}
+.informationWrapper .subInformation .wind img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 1200px) and (max-width: 1690px) {
+  .informationWrapper .mainInformation .value {
+    font-size: 2rem;
+  }
+  .informationWrapper .mainInformation .header {
+    font-size: 1.4rem;
+  }
+  .informationWrapper .mainInformation .error {
+    font-size: 0.8rem;
+  }
+  .informationWrapper .subInformation {
+    font-size: 0.8rem;
+  }
+  .informationWrapper .subInformation .humidity img {
+    width: 35px;
+    height: 35px;
+  }
+  .informationWrapper .subInformation .wind img {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1200px) {
+  .informationWrapper .mainInformation .value {
+    font-size: 1.8rem;
+  }
+  .informationWrapper .mainInformation .header {
+    font-size: 1.2rem;
+  }
+  .informationWrapper .mainInformation .error {
+    font-size: 0.6rem;
+  }
+  .informationWrapper .subInformation {
+    font-size: 0.6rem;
+  }
+  .informationWrapper .subInformation .humidity img {
+    width: 30px;
+    height: 30px;
+  }
+  .informationWrapper .subInformation .wind img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 600px) and (max-width: 780px) {
+  .informationWrapper .mainInformation .value {
+    font-size: 2rem;
+  }
+  .informationWrapper .mainInformation .header {
+    font-size: 1.4rem;
+  }
+  .informationWrapper .mainInformation .error {
+    font-size: 0.8rem;
+  }
+  .informationWrapper .subInformation {
+    font-size: 0.8rem;
+  }
+  .informationWrapper .subInformation .humidity img {
+    width: 35px;
+    height: 35px;
+  }
+  .informationWrapper .subInformation .wind img {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 600px) {
+  .informationWrapper .mainInformation .value {
+    font-size: 1.8rem;
+  }
+  .informationWrapper .mainInformation .header {
+    font-size: 1.2rem;
+  }
+  .informationWrapper .mainInformation .error {
+    font-size: 0.6rem;
+  }
+  .informationWrapper .subInformation {
+    font-size: 0.6rem;
+  }
+  .informationWrapper .subInformation .humidity img {
+    width: 30px;
+    height: 30px;
+  }
+  .informationWrapper .subInformation .wind img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/*# sourceMappingURL=Information.module.css.map */

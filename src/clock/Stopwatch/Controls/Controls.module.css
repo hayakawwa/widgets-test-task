@@ -1,0 +1,63 @@
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.controls button {
+  width: 33%;
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .controls {
+    gap: 0.8rem;
+  }
+  .controls button {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1400px) {
+  .controls {
+    gap: 0.6rem;
+  }
+  .controls button {
+    font-size: 10px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1250px) {
+  .controls {
+    gap: 0.4rem;
+  }
+  .controls button {
+    font-size: 8px;
+    padding: 6px 12px;
+  }
+}
+@media (min-width: 650px) and (max-width: 780px) {
+  .controls {
+    gap: 0.6rem;
+  }
+  .controls button {
+    font-size: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 650px) {
+  .controls {
+    gap: 0.4rem;
+  }
+  .controls button {
+    font-size: 8px;
+    padding: 6px 12px;
+  }
+}
+@media (max-width: 500px) {
+  .controls {
+    gap: 0.2rem;
+  }
+  .controls button {
+    font-size: 6px;
+    padding: 5px 10px;
+  }
+}
+
+/*# sourceMappingURL=Controls.module.css.map */

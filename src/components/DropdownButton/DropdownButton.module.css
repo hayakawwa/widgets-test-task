@@ -1,0 +1,9 @@
+.dropdownWrapper {
+  margin-bottom: 2rem;
+}
+.dropdownWrapper .dropdown {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+/*# sourceMappingURL=DropdownButton.module.css.map */

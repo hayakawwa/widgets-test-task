@@ -1,0 +1,55 @@
+.wrapper {
+  position: relative;
+  background-color: #A6B6A9;
+  border-radius: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+.wrapper .delete {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+.wrapper .delete:hover {
+  opacity: 0.8;
+}
+.wrapper .delete:active {
+  opacity: 0.6;
+}
+.wrapper .searchWrapper {
+  align-items: center;
+  width: 80%;
+  padding-top: 2rem;
+  margin: 0 auto 2rem auto;
+}
+.wrapper .weatherIcon {
+  text-align: center;
+}
+.wrapper .weatherIcon .quest {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1600px) {
+  .wrapper .searchWrapper {
+    width: 75%;
+  }
+  .wrapper .delete {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .wrapper .searchWrapper {
+    width: 70%;
+  }
+  .wrapper .delete {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/*# sourceMappingURL=WeatherApp.module.css.map */

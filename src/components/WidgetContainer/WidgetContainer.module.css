@@ -1,0 +1,19 @@
+.column {
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  height: max-content;
+  min-height: 85vh;
+  width: 30%;
+}
+.column .content {
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+
+@media (max-width: 950px) {
+  .column {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=WidgetContainer.module.css.map */
